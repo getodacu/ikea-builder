@@ -7,7 +7,7 @@ FLAT / FORM is an independent [ai.ro](https://ai.ro) project that turns specific
   <img src="./media/flat-form-showcase.webp" width="960" alt="Flat Packs, In Motion: a 30-second tour of the catalog, numbered 3D assembly steps, and furniture demonstrations.">
 </picture>
 
-[Download the 30-second film (MP4 with sound)](./media/flat-form-showcase.mp4?raw=true)
+[Download the 30-second film (silent MP4)](./media/flat-form-showcase.mp4?raw=true)
 
 Match the model, variant, and article number on the catalog card to your product before building. Open the card’s official IKEA PDF and use the studio to follow numbered instructions and warnings, inspect parts, and replay placements.
 
