@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f3eb">
+  <title>IKEA Assemblies · FLAT / FORM</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main id="catalog" class="catalog">
+    <header class="gallery-masthead">
+      <div class="gallery-imprint">
+        <div class="wordmark">FLAT <span>/</span> FORM</div>
+        <span>INDEPENDENT ASSEMBLY STUDIO</span>
+      </div>
+      <nav class="gallery-project-nav" aria-label="Project">
+        <a href="#about">About this project</a>
+        <a href="https://github.com/getodacu/ikea-builder">GitHub <span aria-hidden="true">↗</span></a>
+        <a href="https://ai.ro/#contact">Contact Us <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+    <p id="catalog-error" role="alert" hidden></p>
+    <div class="gallery-hero">
+      <div>
+        <p class="gallery-kicker">IKEA / MODEL INDEX</p>
+        <h1>The Assembly<br><em>Collection.</em></h1>
+      </div>
+      <p class="gallery-lead">Pick your IKEA model to follow the build in 3D, step by step.</p>
+    </div>
+    <section aria-labelledby="gallery-heading">
+      <div class="gallery-heading">
+        <h2 id="gallery-heading">Browse the models</h2>
+        <span><!-- assembly-count --> models</span>
+      </div>
+      <ol class="gallery-grid" role="list">
+        <!-- assembly-catalog -->
+      </ol>
+    </section>
+    <section id="about" aria-labelledby="about-heading">
+      <div class="gallery-heading">
+        <h2 id="about-heading">About this project</h2>
+        <span>PROJECT NOTES</span>
+      </div>
+      <p>FLAT / FORM is an independent ai.ro project that interprets specific official IKEA editions as interactive 3D assembly guides. It is not affiliated with or endorsed by IKEA.</p>
+      <p>These guides supplement, not replace, the official manual. The geometry is illustrative and does not verify fit, wall attachment, or load.</p>
+
+      <h3 class="gallery-workflow-heading" id="use-guide-heading">Use the guide</h3>
+      <ol class="gallery-workflow" aria-labelledby="use-guide-heading">
+        <li>
+          <strong>Pick your edition</strong>
+          <p>Choose the exact model and open its official manual.</p>
+        </li>
+        <li>
+          <strong>Build step by step</strong>
+          <p>Read the instructions and warnings, inspect parts, and replay placements.</p>
+        </li>
+        <li>
+          <strong>Inspect the finished model</strong>
+          <p>Orbit your selected configuration and return to the previous instruction.</p>
+        </li>
+      </ol>
+
+      <h3 class="gallery-workflow-heading" id="how-built-heading">How it’s built</h3>
+      <ol class="gallery-workflow" aria-labelledby="how-built-heading">
+        <li>
+          <strong>Pin the official manual</strong>
+          <p>Record the edition, checksum, and page evidence.</p>
+        </li>
+        <li>
+          <strong>Model and check</strong>
+          <p>Reconcile the inventory, model original geometry, and test steps and placements.</p>
+        </li>
+        <li>
+          <strong>Build and render</strong>
+          <p>Vite generates the HTML catalog. Browser JavaScript reads the deterministic assembly timeline, and Three.js renders the assembly.</p>
+        </li>
+      </ol>
+      <p>Numbered instructions and official manual links still work when 3D or local previews are unavailable.</p>
+    </section>
+    <footer class="gallery-footer">© 2026 <a href="https://ai.ro">ai.ro</a></footer>
+  </main>
+  <header class="topbar" id="studio-header" hidden>
+    <a class="all-assemblies" href="./">All assemblies</a>
+    <h1><b id="product-name"></b> <span>Assembly studio</span></h1>
+    <details class="manual" id="manual">
+      <summary>IKEA manual <span aria-hidden="true">↗</span></summary>
+      <div class="manual-sheet">
+        <strong id="edition"></strong>
+        <div id="manual-notes"></div>
+        <ul id="manual-pages"></ul>
+      </div>
+    </details>
+  </header>
+
+  <main id="studio-main" hidden>
+    <div class="studio">
+      <section class="stage" id="stage" aria-label="Assembly view">
+        <div class="stage-badge"><b id="stage-index"></b><span id="stage-state"></span></div>
+        <div id="view" role="img" aria-label="Interactive three-dimensional view of the current assembly"></div>
+        <p id="view-status" role="status">Loading 3D…</p>
+        <div class="camera" id="camera" hidden>
+          <button id="turn" type="button">Rotate view</button>
+          <button id="reset" type="button">Reset camera</button>
+        </div>
+      </section>
+
+      <aside class="rail" aria-labelledby="action-title" tabindex="0">
+        <p id="chapter-tag" class="chapter-tag"></p>
+        <h2 id="action-title" tabindex="-1"></h2>
+        <div id="warning" class="warning" hidden><strong>Safety</strong><p id="warning-text"></p><a id="warning-link" target="_blank" rel="noopener"></a></div>
+        <div id="choices"></div>
+        <p id="action-text" class="action"></p>
+        <div class="placed" id="placed"></div>
+        <div class="step-source">
+          <a class="source" id="official-page" target="_blank" rel="noopener"><span id="source-label">Official page</span> <span id="page-number"></span><span aria-hidden="true"> ↗</span></a>
+          <button id="page-preview" type="button" aria-haspopup="dialog" hidden>
+            <img id="page-preview-thumb" alt="">
+            <span id="page-preview-label"></span>
+          </button>
+        </div>
+        <div id="step-references" class="step-source" hidden></div>
+        <button id="use-demo" type="button" hidden></button>
+        <details id="parts" class="parts" open>
+          <summary><span id="parts-label">Parts</span> <span id="parts-total"></span></summary>
+          <div id="inventory">
+            <label for="inspect">Inspect a family</label>
+            <select id="inspect"></select>
+            <p id="inspect-info" hidden></p>
+          </div>
+          <ul id="part-rows"></ul>
+        </details>
+      </aside>
+    </div>
+
+    <nav class="transport" aria-label="Assembly controls">
+      <button id="back" type="button"><span aria-hidden="true">←</span> Back</button>
+      <button id="replay" type="button" disabled aria-label="Replay step">Replay</button>
+      <button id="next" type="button" class="primary">Start build <span aria-hidden="true">→</span></button>
+    </nav>
+    <div class="controls">
+      <nav id="chapters" class="chapters" aria-label="Build chapters"></nav>
+      <details id="jump" class="jump">
+        <summary id="jump-title">Jump to a step</summary>
+        <ol id="jump-list"></ol>
+      </details>
+    </div>
+    <p class="sr-only" id="announcement" aria-live="polite" aria-atomic="true"></p>
+  </main>
+  <dialog id="page-preview-dialog" aria-labelledby="page-preview-title">
+    <header class="page-preview-header">
+      <h2 id="page-preview-title"></h2>
+      <div class="page-preview-actions">
+        <form method="dialog"><button autofocus>Close</button></form>
+        <a id="page-preview-local" target="_blank" rel="noopener">Open local PDF</a>
+        <a id="page-preview-official" target="_blank" rel="noopener">Open on IKEA</a>
+      </div>
+    </header>
+    <div class="page-preview-body">
+      <img id="page-preview-full" alt="" hidden>
+      <p id="page-preview-error" role="status" hidden>Page preview unavailable. Use the PDF links above.</p>
+    </div>
+  </dialog>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

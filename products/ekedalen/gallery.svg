@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <g id="leg" stroke="#505a50" stroke-width="1.7" stroke-linejoin="round">
+      <path d="M0 0H10V108H0Z" fill="#dedfd6"/>
+      <path d="M10 0L15 -3V105L10 108Z" fill="#bbc2b8"/>
+    </g>
+  </defs>
+  <ellipse cx="206" cy="216" rx="155" ry="17" fill="#465044" opacity=".12"/>
+  <g transform="matrix(1 .055 0 1 0 -10)" stroke="#505a50" stroke-width="1.7" stroke-linejoin="round">
+    <use href="#leg" x="98" y="82"/><use href="#leg" x="343" y="82"/>
+    <path d="M46 116L99 81H352V94H100L46 131Z" fill="#bbc2b8"/>
+    <use href="#leg" x="45" y="120"/><use href="#leg" x="290" y="120"/>
+    <path d="M55 118H290V133H55Z" fill="#dedfd6"/>
+    <path d="M303 117L345 90V102L303 130Z" fill="#bbc2b8"/>
+    <path d="M40 116H303L362 78V83L303 122H40Z" fill="#dedfd6"/>
+    <path d="M303 116L362 78V83L303 122Z" fill="#bbc2b8"/>
+    <path d="M40 116L99 78H362L303 116Z" fill="#f7f5eb"/>
+    <path d="M128 116L187 78 M215 116L274 78" fill="none" stroke="#878f83"/>
+  </g>
+</svg>

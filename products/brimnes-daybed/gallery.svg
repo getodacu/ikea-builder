@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-labelledby="title">
+  <title id="title">BRIMNES compact white Twin daybed frame with a pine slat deck and two drawers</title>
+  <defs>
+    <linearGradient id="front" x2=".25" y2="1"><stop stop-color="#fffef9"/><stop offset="1" stop-color="#dfdfd6"/></linearGradient>
+    <pattern id="deck" patternUnits="userSpaceOnUse" width="10.4" height="100">
+      <path d="M0 0h8v100H0z" fill="#e1c199"/><path d="M.3 0v100M7.8 0v100" stroke="#a98d6c" stroke-width=".7"/>
+      <path d="M2.2 19q1.3 23 .3 47m3-58q-.8 10-.5 23m0 34 .4 27" fill="none" stroke="#c6a37e" stroke-width=".55"/>
+    </pattern>
+  </defs>
+  <ellipse cx="198" cy="207" rx="163" ry="18" fill="#323935" opacity=".09"/>
+  <g stroke="#64665e" stroke-width="1.35" stroke-linejoin="round">
+    <g transform="matrix(.9 .58 0 1 288 52)">
+      <path d="M0 0h99v90H0z" fill="#e8e7df"/>
+      <path d="M8 18h82v57H8z" fill="#d8d8d0" stroke="#a6a69d"/>
+      <path d="M0 0 3-2h99l-3 2zm99 0 3-2v90l-3 2z" fill="#f9f9f3"/>
+    </g>
+    <g transform="matrix(1 -.179 0 1 21 100)">
+      <path d="M0 0h267v41H0z" fill="#eeeee7"/><path d="m0 0 3-2.4h267L267 0z" fill="#fffef8"/>
+      <path d="M3 38h262" stroke="#babbb0"/>
+    </g>
+    <g transform="matrix(1 -.179 .9 .58 26 136)">
+      <path d="M0 0h260v95H0z" fill="#78796d"/>
+      <path d="M0 0h260v95H0z" fill="url(#deck)" stroke="#928577"/>
+      <path d="M0 94h260" stroke="#a2a59d" stroke-width="2.5"/>
+    </g>
+    <g transform="matrix(1 -.179 0 1 108 193)">
+      <path d="M0 0h269v51H0z" fill="#d5d5ca"/>
+      <path d="M3 4h129v41H3zm133 0h129v41H136z" fill="url(#front)"/>
+      <g fill="#b0b1aa" stroke="#656861" stroke-width=".9">
+        <path d="m55 11 2 2h23l-2-2zm2 2h23v2H57zM188 11l2 2h23l-2-2zm2 2h23v2h-23z"/>
+      </g>
+      <path d="M2 47h265" stroke="#c4c5bb"/>
+    </g>
+    <g transform="matrix(.9 .58 0 1 21 100)">
+      <path d="M0 0h99v90H0z" fill="#ebebe3"/>
+      <path d="M9 19h80v56H9z" fill="#e0e1d8" stroke="#a3a69c"/>
+      <path d="M9 75V19h80" fill="none" stroke="#bec0b5" stroke-width="2.2"/>
+      <path d="M0 18h99M0 76h99" stroke="#a6a89e" stroke-width=".8"/>
+      <path d="M0 0 3-3h99l-3 3zm99 0 3-3v90l-3 3z" fill="#f8f8f1"/>
+    </g>
+  </g>
+</svg>

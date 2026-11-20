@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" role="img" aria-labelledby="title">
+  <title id="title">POÄNG bent birch armchair frame</title>
+  <defs>
+    <linearGradient id="birch" x1="139" y1="64" x2="305" y2="254" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f5d2a0"/><stop offset=".55" stop-color="#ddb17c"/><stop offset="1" stop-color="#b98555"/>
+    </linearGradient>
+    <linearGradient id="seat" x1="188" y1="148" x2="221" y2="198" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a39b88"/><stop offset="1" stop-color="#68675b"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="207" cy="259" rx="123" ry="13" fill="#33291d" opacity=".14"/>
+  <path d="M77 231 161 211l96 17-84 21z" fill="#c39669" stroke="#805a3d" stroke-width="3"/>
+  <path d="m176 207 92-20 54 15-94 24z" fill="#c39669" stroke="#805a3d" stroke-width="3"/>
+  <path d="M194 111q13 26 28 30l79 18q16 4 16 23l-6 41q-2 13-14 16l-85 20" stroke="#805a3d" stroke-width="17" stroke-linecap="round"/>
+  <path d="M194 111q13 26 28 30l79 18q16 4 16 23l-6 41q-2 13-14 16l-85 20" stroke="url(#birch)" stroke-width="13" stroke-linecap="round"/>
+  <path d="M100 52q45 14 82-14l3 13q-43 27-84 12zm4 30q42 16 84-14l2 13q-40 30-82 13zm13 34q40 14 81-15l5 13q-43 32-79 14zm20 35q41 9 82-20l6 13q-44 29-80 20z" fill="url(#birch)" stroke="#805a3d" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M109 87q40 15 78-13" stroke="#8a806d" stroke-width="4"/>
+  <path d="M97 49q4 59 41 105c11 15 5 27 20 29l65 17m-43-164q5 56 37 95c15 18 11 24 24 26l61 15" stroke="#805a3d" stroke-width="14" stroke-linecap="round"/>
+  <path d="M97 49q4 59 41 105c11 15 5 27 20 29l65 17m-43-164q5 56 37 95c15 18 11 24 24 26l61 15" stroke="url(#birch)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M155 177q50 6 86-22l60 16q-33 30-76 29z" fill="url(#seat)" stroke="#5d584c" stroke-width="2"/>
+  <path d="M161 180q35 9 65 16m19-38 50 13" stroke="#beb39b" stroke-width="1.5"/>
+  <path d="m217 205 88-25v13l-88 24z" fill="url(#birch)" stroke="#805a3d" stroke-width="2.5"/>
+  <path d="M93 128q14 28 29 33l84 18q16 3 17 24l-3 42q-1 17-20 17L79 234" stroke="#805a3d" stroke-width="18" stroke-linecap="round"/>
+  <path d="M93 128q14 28 29 33l84 18q16 3 17 24l-3 42q-1 17-20 17L79 234" stroke="url(#birch)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M95 125q13 27 30 31l83 18q19 4 20 24l-3 45q-1 22-22 24L81 239" stroke="#f7d8ab" stroke-width="1.7" stroke-linecap="round"/>
+  <path d="m197 268 14 3 9-7-12-2zm94-24 9 2 8-6-9-2z" fill="#51473b"/>
+  <g fill="#735947">
+    <circle cx="97" cy="135" r="2.4"/><circle cx="220" cy="217" r="2.4"/>
+    <circle cx="82" cy="234" r="2.4"/><circle cx="310" cy="202" r="2"/>
+    <circle cx="98" cy="55" r="1.65"/><circle cx="104" cy="87" r="1.65"/>
+    <circle cx="120" cy="120" r="1.65"/><circle cx="140" cy="155" r="1.65"/>
+  </g>
+</svg>

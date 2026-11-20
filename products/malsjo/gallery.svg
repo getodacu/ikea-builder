@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <g transform="translate(-32 41) scale(.72)">
+  <ellipse cx="322" cy="276" rx="246" ry="15" fill="#101610" opacity=".33"/>
+  <g transform="matrix(1 .035 0 1 0 -10)" stroke="#1e2622" stroke-width="2" stroke-linejoin="round">
+    <!-- Recessed plinth and paneled end -->
+    <path d="M88 266H477L548 233V247L477 281H88Z" fill="#343b37" stroke="#98a299"/>
+    <path d="M477 266V281L548 247V233Z" fill="#272e29"/>
+    <path d="M80 65H480V268H80Z" fill="#515a54"/>
+    <path d="M480 65L555 31V234L480 268Z" fill="#343b37" stroke="#9ca79c"/>
+    <path d="M487 78L548 50V224L487 252Z" fill="#414b44"/>
+    <path d="M492 80L543 57V220L492 244Z" fill="#333d37" stroke="#69766b"/>
+    <!-- Paired inset drawer fronts, each with two round knobs -->
+    <g fill="#454e48">
+      <path d="M87 72H277V112H87Z M282 72H473V112H282Z"/>
+      <path d="M94 78H270V106H94Z M289 78H466V106H289Z" stroke="#697369" fill="#3b443e"/>
+    </g>
+    <g fill="#989c87"><circle cx="127" cy="92" r="3.8"/><circle cx="238" cy="92" r="3.8"/><circle cx="321" cy="92" r="3.8"/><circle cx="434" cy="92" r="3.8"/></g>
+    <!-- Offset sliding leaves: shelf fronts and returns seen through glass -->
+    <path d="M88 121H277V256H88Z" fill="#343b37"/>
+    <path d="M96 128H268V248H96Z" fill="#8faeaa"/>
+    <path d="M96 188L118 177H268V184L247 194H96Z M96 248L117 237H268V248Z" fill="#637e75"/>
+    <path d="M96 188H268V194H96Z" fill="#4e665c"/>
+    <path d="M274 119H473V258H274Z" fill="#48524a"/>
+    <path d="M284 127H464V249H284Z" fill="#8faeaa"/>
+    <path d="M284 188L306 177H464V184L443 194H284Z M284 249L305 237H464V249Z" fill="#637e75"/>
+    <path d="M284 188H464V194H284Z" fill="#4e665c"/>
+    <g fill="#e9f4e9" stroke="none" opacity=".25">
+      <path d="M147 129H167L112 247H97Z M173 129H179L124 247H118Z"/>
+      <path d="M374 128H393L337 248H318Z M400 128H405L349 248H344Z"/>
+    </g>
+    <path d="M91 168V185 M469 168V185" stroke="#b8bda9" stroke-width="3" stroke-linecap="round"/>
+    <path d="M80 114H480V119H80Z M80 258H480V268H80Z" fill="#414b43"/>
+    <path d="M81 266H479L554 232" stroke="#9ca79c" fill="none"/>
+    <!-- Stepped lip, lighter on the top and on the silhouette -->
+    <path d="M73 59H482L562 23V31L482 68H73Z" fill="#414b44" stroke="#a6afa3"/>
+    <path d="M73 59L153 23H562L482 59Z" fill="#616c62" stroke="#bac2b4"/>
+    <path d="M482 59V67" fill="none"/>
+  </g>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <title>White RELATERA sit/stand desk with a side crank</title>
+  <defs>
+    <linearGradient id="top" x1="51" y1="119" x2="329" y2="88" gradientUnits="userSpaceOnUse"><stop stop-color="#fffdf4"/><stop offset="1" stop-color="#e5e5dc"/></linearGradient>
+    <linearGradient id="legs" x1="0" x2="1"><stop stop-color="#f6f5ec"/><stop offset="1" stop-color="#c7ccbf"/></linearGradient>
+  </defs>
+  <ellipse cx="203" cy="243" rx="152" ry="16" fill="#899285" opacity=".16"/>
+  <g stroke="#555f56" stroke-width="1.6" stroke-linejoin="round">
+    <path fill="#545c55" d="M100 226h10l-1 6h-10zm62-20h11l-1 5h-11zm125 41h11l-1 5h-11zm65-22h11l-1 5h-11z"/>
+    <path fill="url(#legs)" d="M96 225l65-22c4-2 20-1 18 4l-68 25c-6 2-16-2-15-7zm184 20l66-23c5-2 20 0 19 4l-69 25c-5 2-15-1-16-6z"/>
+    <path fill="#c6ccbf" d="M125 173l11-3 5 6-1 43-9 4-6-4zm184 22l11-3 5 6-1 42-9 4-6-4z"/>
+    <path fill="url(#legs)" d="M119 108l16-5 10 5-1 84-14 5-10-4zm184 22l16-5 10 6v83l-14 5-11-4z"/>
+    <path d="M130 197v-85m185 107v-85" stroke="#adb6a8"/>
+    <path fill="#c5cabe" d="M127 105l188 22-3 10-183-22z"/>
+    <path fill="#d5d7cd" d="M184 122l72 7-1 16-69-9-7-5z"/>
+    <path fill="#ecece2" d="M179 128l69 8 8-7-1 16-69-9-7-5z"/>
+    <path fill="#b8beb1" d="M112 102l36-10 7 6-28 14-15 2zm186 25l38-11 6 5-31 17-13-1z"/>
+    <path d="M132 115v9q0 4-5 3" stroke="#6b756a" stroke-width="3" stroke-linecap="round"/>
+    <path fill="url(#top)" d="M52 117q-5-1-1-5l65-32q4-2 10-1l225 26q8 1 3 5l-65 35q-4 2-11 1z"/>
+    <path fill="#d7d7cc" d="M51 115l229 30q5 1 10-2l66-35v6q-1 3-5 5l-61 32q-4 2-11 1L55 123q-4 0-4-3z"/>
+    <path fill="#e3e4da" d="M333 125l5 1-1 19q0 3-4 3l-4-1v-17q0-3 4-5z"/>
+    <path d="M334 145l12 2" stroke="#657063" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g fill="#e8e8df" stroke="#a2a89c" stroke-width=".85">
+    <ellipse cx="120" cy="87" rx="4.1" ry="1.5"/><ellipse cx="185" cy="95" rx="4.1" ry="1.5"/>
+    <ellipse cx="251" cy="103" rx="4.1" ry="1.5"/><ellipse cx="318" cy="111" rx="4.1" ry="1.5"/>
+  </g>
+</svg>

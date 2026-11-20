@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-labelledby="title">
+<title id="title">FJÄLLBO black TV unit with four open-mesh doors and a pine top</title>
+<defs>
+  <linearGradient id="pine" x2=".2" y2="1"><stop stop-color="#d2a475"/><stop offset="1" stop-color="#ae7c52"/></linearGradient>
+  <linearGradient id="steel" x2="0" y2="1"><stop stop-color="#44484a"/><stop offset="1" stop-color="#222628"/></linearGradient>
+  <pattern id="mesh" width="8" height="6" patternUnits="userSpaceOnUse"><path d="M0 3 4 0 8 3 4 6Z" fill="none" stroke="#45494a" stroke-width=".95"/></pattern>
+  <pattern id="side" width="6" height="7" patternUnits="userSpaceOnUse"><path d="M0 3.5 3 0 6 3.5 3 7Z" fill="none" stroke="#4b4e4c" stroke-width="1"/></pattern>
+</defs>
+<ellipse cx="198" cy="213" rx="162" ry="14" fill="#29332e" opacity=".12"/>
+<path d="M46 121 86 144 86 212 46 187Z" fill="#cbc9b9"/>
+<path d="M46 121 86 144 86 212 46 187Z" fill="url(#side)" stroke="#2e3233" stroke-width="4"/>
+<path d="M45 118V201M87 142V224M154 132V214M220 122V204M286 112V194M353 102V184" fill="none" stroke="url(#steel)" stroke-width="5.3" stroke-linecap="round"/>
+<path d="M87 154 353 114M87 179 353 139M87 208 353 168" stroke="#292d2d" stroke-width="3" opacity=".6"/>
+<g transform="matrix(1 -.15 0 1 87 148)">
+  <g fill="url(#mesh)" stroke="url(#steel)" stroke-width="3">
+    <rect x="3" width="61" height="65" rx="6"/><rect x="69" width="61" height="65" rx="6"/>
+    <rect x="135" width="61" height="65" rx="6"/><rect x="201" width="61" height="65" rx="6"/>
+  </g>
+  <path d="M58 28v9m66-9v9m17-9v9m66-9v9" stroke="#252829" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M3 15h5m-5 35h5m61-35h5m-5 35h5m117-35h5m-5 35h5m61-35h5m-5 35h5" stroke="#696a63" stroke-width="2.5"/>
+</g>
+<path d="M41 115 306 76 359 98 86 140Z" fill="url(#pine)" stroke="#6a503f" stroke-linejoin="round" stroke-width="1.2"/>
+<path d="M41 115v7l45 25 273-41v-8L86 140Z" fill="#8b6246" stroke="#604933" stroke-linejoin="round" stroke-width="1.3"/>
+<path d="M68 117c64-10 112-14 168-26m-146 34c57-11 71-10 121-19s76-12 112-17m-204 40c48-7 72-13 118-18s69-12 88-14" fill="none" stroke="#795439" stroke-opacity=".42" stroke-linecap="round"/>
+<path d="m48 199 2 1m36 24 3-.5m65-9 2-.4m64-9.6 2-.3m63-9.4 2-.4m65-9.6 2-.3" stroke="#15191b" stroke-linecap="round" stroke-width="3.5"/>
+</svg>
