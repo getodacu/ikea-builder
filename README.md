@@ -2,6 +2,8 @@
 
 FLAT / FORM is an independent [ai.ro](https://ai.ro) project that turns specific official IKEA assembly manual editions into interactive 3D guides. [Contact Us](https://ai.ro/#contact) · [GitHub repository](https://github.com/getodacu/ikea-builder)
 
+**[Try demo](https://ikea-builder.ai.ro)**
+
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="./media/flat-form-showcase-poster.webp">
   <img src="./media/flat-form-showcase.webp" width="960" alt="Flat Packs, In Motion: a 30-second tour of the catalog, numbered 3D assembly steps, and furniture demonstrations.">
