@@ -2,6 +2,13 @@
 
 FLAT / FORM is an independent [ai.ro](https://ai.ro) project that turns specific official IKEA assembly manual editions into interactive 3D guides. [Contact Us](https://ai.ro/#contact) · [GitHub repository](https://github.com/getodacu/ikea-builder)
 
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./media/flat-form-showcase-poster.webp">
+  <img src="./media/flat-form-showcase.webp" width="960" alt="Flat Packs, In Motion: a 30-second tour of the catalog, numbered 3D assembly steps, and furniture demonstrations.">
+</picture>
+
+[Download the 30-second film (MP4 with sound)](./media/flat-form-showcase.mp4?raw=true)
+
 Match the model, variant, and article number on the catalog card to your product before building. Open the card’s official IKEA PDF and use the studio to follow numbered instructions and warnings, inspect parts, and replay placements.
 
 After the last numbered instruction, choose **View completed assembly** to orbit the finished model for your selected configuration. The last official page, safety instructions, and references stay available; **Back** returns to the last instruction.
